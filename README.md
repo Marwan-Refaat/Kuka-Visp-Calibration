@@ -1,17 +1,17 @@
 # Kuka-Visp Hand-Eye Calibration
-This repo allows the use of the Visp library to conduct extrinsic Hand-Eye calibration by capturing the robot's pose using the RoboDK python API and outputting the necessary pose file in YAML format. 
-This can easily be extended to be used with other manufacturer as they are almost all supported by RoboDK. You can find the list of manufacturers with supported RoboDK drivers [here](https://robodk.com/doc/en/Robot-Drivers.html) 
+This repo allows the use of the Visp library to conduct extrinsic Hand-Eye calibration by capturing the robot's pose using the RoboDK python API and outputting the necessary pose file in YAML format. This can easily be extended to be used with other manufacturer as they are almost all supported by RoboDK. 
+* You can find the list of manufacturers with supported RoboDK drivers [here](https://robodk.com/doc/en/Robot-Drivers.html) 
 
 ### Requirements:
 - A working installation of RoboDK
 - Python3
-- Any Kuka robot with KukaVarProxy running in the background (See:)
+- Any Kuka robot with KukaVarProxy running in the background (See: [RoboDK driver for KUKA](https://robodk.com/doc/en/Robots-KUKA.html#DriverKUKA))
 - A working installation of the VISP library
 
 ## Instructions
  #### 1 - Start RoboDK and Connect to Robot
 * Start RoboDK using <br>
-```./RoboDK-Directory/RoboDK-Start.sh ```
+```./<RoboDK-Directory>/RoboDK-Start.sh ```
 * Follow the corresponding [tutorial](https://robodk.com/doc/en/Robot-Calibration-LaserTracker-Connect-robot.html "tutorial") to connect to your robot
 
 #### 2 - Start an image capture service
