@@ -1,5 +1,5 @@
 # Kuka-Visp Hand-Eye Calibration
-This repo allows the use of the Visp library to conduct extrinsic Hand-Eye calibration by capturing the robot's pose using the RoboDK python API and outputting the necessary pose file in YAML format. This can easily be extended to be used with other manufacturer as they are almost all supported by RoboDK. 
+This repo allows the use of the Visp library to conduct extrinsic Hand-Eye calibration by capturing the robot's pose using the RoboDK python API and outputting the necessary pose file in YAML format. This can easily be extended to be used with other manufacturers as they are almost all supported by RoboDK. 
 * You can find the list of manufacturers with supported RoboDK drivers [here](https://robodk.com/doc/en/Robot-Drivers.html) 
 
 ### Requirements:
@@ -29,7 +29,7 @@ This repo allows the use of the Visp library to conduct extrinsic Hand-Eye calib
   
 #### 5 - Run savePose.cpp to correctly format the poses required by Visp
 
-* Inside the kuka-calib directory, run `./build/savePose` to convert to create appropriately formatted YAML files
+* Inside the kuka-calib directory, run `./build/savePose` to create appropriately formatted YAML files
 
   
 
